@@ -1,0 +1,2167 @@
+[
+  {
+    "sha": "9737fbe260eb0649f150ea29225d8719d77f6167",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-04-01T15:45:29Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-04-01T15:45:29Z"
+      },
+      "message": "Merge pull request #278 from hammerlab/reference-build\n\nAdd rebuilding of reference from multiple reads and tests",
+      "tree": {
+        "sha": "4778a5caddfe54dee84953fc044c69542e33b4d5",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/4778a5caddfe54dee84953fc044c69542e33b4d5"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/9737fbe260eb0649f150ea29225d8719d77f6167",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/9737fbe260eb0649f150ea29225d8719d77f6167",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/9737fbe260eb0649f150ea29225d8719d77f6167",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/9737fbe260eb0649f150ea29225d8719d77f6167/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8170e2fb4f09bda8100802f66a4a5269f9d22fb0",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/8170e2fb4f09bda8100802f66a4a5269f9d22fb0",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/8170e2fb4f09bda8100802f66a4a5269f9d22fb0"
+      },
+      {
+        "sha": "772e81392cc4ba1443266e0840ff7f3bed1a2819",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/772e81392cc4ba1443266e0840ff7f3bed1a2819",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/772e81392cc4ba1443266e0840ff7f3bed1a2819"
+      }
+    ]
+  },
+  {
+    "sha": "8170e2fb4f09bda8100802f66a4a5269f9d22fb0",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-19T22:39:31Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-19T22:39:31Z"
+      },
+      "message": "Merge pull request #286 from hammerlab/speedup-loci-union\n\nSpeedup LociSet union",
+      "tree": {
+        "sha": "800a474c0641264687d4ac3eedc94ef4ceef5a78",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/800a474c0641264687d4ac3eedc94ef4ceef5a78"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/8170e2fb4f09bda8100802f66a4a5269f9d22fb0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/8170e2fb4f09bda8100802f66a4a5269f9d22fb0",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/8170e2fb4f09bda8100802f66a4a5269f9d22fb0",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/8170e2fb4f09bda8100802f66a4a5269f9d22fb0/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9fd5041dc6626124edc25a829a96945be1f501b8",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/9fd5041dc6626124edc25a829a96945be1f501b8",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/9fd5041dc6626124edc25a829a96945be1f501b8"
+      },
+      {
+        "sha": "23e0b90f953c960197d05b4c4c64d22f13695643",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/23e0b90f953c960197d05b4c4c64d22f13695643",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/23e0b90f953c960197d05b4c4c64d22f13695643"
+      }
+    ]
+  },
+  {
+    "sha": "23e0b90f953c960197d05b4c4c64d22f13695643",
+    "commit": {
+      "author": {
+        "name": "Tim O'Donnell",
+        "email": "timodonnell@gmail.com",
+        "date": "2015-03-19T22:23:07Z"
+      },
+      "committer": {
+        "name": "Tim O'Donnell",
+        "email": "timodonnell@gmail.com",
+        "date": "2015-03-19T22:23:07Z"
+      },
+      "message": "Speedup LociSet union\n\nThis change gives a better LociSet union implementation when unioning many sets.\n\nSince `LociSet.parse` uses `union`, this speeds up parsing of large LociSets.\n\nAlso two unrelated minor formatting fixes suggested by my IDE.",
+      "tree": {
+        "sha": "800a474c0641264687d4ac3eedc94ef4ceef5a78",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/800a474c0641264687d4ac3eedc94ef4ceef5a78"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/23e0b90f953c960197d05b4c4c64d22f13695643",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/23e0b90f953c960197d05b4c4c64d22f13695643",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/23e0b90f953c960197d05b4c4c64d22f13695643",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/23e0b90f953c960197d05b4c4c64d22f13695643/comments",
+    "author": {
+      "login": "timodonnell",
+      "id": 467896,
+      "avatar_url": "https://avatars.githubusercontent.com/u/467896?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/timodonnell",
+      "html_url": "https://github.com/timodonnell",
+      "followers_url": "https://api.github.com/users/timodonnell/followers",
+      "following_url": "https://api.github.com/users/timodonnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timodonnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timodonnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timodonnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/timodonnell/orgs",
+      "repos_url": "https://api.github.com/users/timodonnell/repos",
+      "events_url": "https://api.github.com/users/timodonnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timodonnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timodonnell",
+      "id": 467896,
+      "avatar_url": "https://avatars.githubusercontent.com/u/467896?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/timodonnell",
+      "html_url": "https://github.com/timodonnell",
+      "followers_url": "https://api.github.com/users/timodonnell/followers",
+      "following_url": "https://api.github.com/users/timodonnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timodonnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timodonnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timodonnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/timodonnell/orgs",
+      "repos_url": "https://api.github.com/users/timodonnell/repos",
+      "events_url": "https://api.github.com/users/timodonnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timodonnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9fd5041dc6626124edc25a829a96945be1f501b8",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/9fd5041dc6626124edc25a829a96945be1f501b8",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/9fd5041dc6626124edc25a829a96945be1f501b8"
+      }
+    ]
+  },
+  {
+    "sha": "772e81392cc4ba1443266e0840ff7f3bed1a2819",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-19T17:14:46Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-19T18:27:00Z"
+      },
+      "message": "update to use refpos for building ref sequence",
+      "tree": {
+        "sha": "dcb71a26cceeb08e5300e6024c12804b5dcf3de7",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/dcb71a26cceeb08e5300e6024c12804b5dcf3de7"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/772e81392cc4ba1443266e0840ff7f3bed1a2819",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/772e81392cc4ba1443266e0840ff7f3bed1a2819",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/772e81392cc4ba1443266e0840ff7f3bed1a2819",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/772e81392cc4ba1443266e0840ff7f3bed1a2819/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d52c96236410e13c870704c90cca21d2b3f43b89",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/d52c96236410e13c870704c90cca21d2b3f43b89",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/d52c96236410e13c870704c90cca21d2b3f43b89"
+      }
+    ]
+  },
+  {
+    "sha": "9fd5041dc6626124edc25a829a96945be1f501b8",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-19T00:48:14Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-19T00:48:14Z"
+      },
+      "message": "Merge pull request #284 from hammerlab/arahuja-patch-1\n\nUpdate README.md for double-dash flag",
+      "tree": {
+        "sha": "df84bf7d62ca11845e136baed2bb08d07894ccf0",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/df84bf7d62ca11845e136baed2bb08d07894ccf0"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/9fd5041dc6626124edc25a829a96945be1f501b8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/9fd5041dc6626124edc25a829a96945be1f501b8",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/9fd5041dc6626124edc25a829a96945be1f501b8",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/9fd5041dc6626124edc25a829a96945be1f501b8/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b64724513a2b84fb4850849cd235540006ca594e",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/b64724513a2b84fb4850849cd235540006ca594e",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/b64724513a2b84fb4850849cd235540006ca594e"
+      },
+      {
+        "sha": "a5c07a39888651c65158824ba22ffa8a32ff9fd0",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/a5c07a39888651c65158824ba22ffa8a32ff9fd0",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/a5c07a39888651c65158824ba22ffa8a32ff9fd0"
+      }
+    ]
+  },
+  {
+    "sha": "a5c07a39888651c65158824ba22ffa8a32ff9fd0",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-18T21:41:55Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-18T21:41:55Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "df84bf7d62ca11845e136baed2bb08d07894ccf0",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/df84bf7d62ca11845e136baed2bb08d07894ccf0"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/a5c07a39888651c65158824ba22ffa8a32ff9fd0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/a5c07a39888651c65158824ba22ffa8a32ff9fd0",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/a5c07a39888651c65158824ba22ffa8a32ff9fd0",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/a5c07a39888651c65158824ba22ffa8a32ff9fd0/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b64724513a2b84fb4850849cd235540006ca594e",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/b64724513a2b84fb4850849cd235540006ca594e",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/b64724513a2b84fb4850849cd235540006ca594e"
+      }
+    ]
+  },
+  {
+    "sha": "b64724513a2b84fb4850849cd235540006ca594e",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-15T19:21:41Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-15T19:21:41Z"
+      },
+      "message": "Merge pull request #282 from hammerlab/fix-guacamole-script-to-use-correct-jar\n\nFix scripts/guacamole to run correct jar",
+      "tree": {
+        "sha": "3c02ccd619230ef1e9e4518261b2c0ea6e04e1e7",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/3c02ccd619230ef1e9e4518261b2c0ea6e04e1e7"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/b64724513a2b84fb4850849cd235540006ca594e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/b64724513a2b84fb4850849cd235540006ca594e",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/b64724513a2b84fb4850849cd235540006ca594e",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/b64724513a2b84fb4850849cd235540006ca594e/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "27b49721dddfc602e94b491ff76fa8bf8bcb0f31",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/27b49721dddfc602e94b491ff76fa8bf8bcb0f31",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/27b49721dddfc602e94b491ff76fa8bf8bcb0f31"
+      },
+      {
+        "sha": "1ba07a9d206a44f9ff314416052340cf419822ac",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/1ba07a9d206a44f9ff314416052340cf419822ac",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/1ba07a9d206a44f9ff314416052340cf419822ac"
+      }
+    ]
+  },
+  {
+    "sha": "1ba07a9d206a44f9ff314416052340cf419822ac",
+    "commit": {
+      "author": {
+        "name": "Tim O'Donnell",
+        "email": "timodonnell@gmail.com",
+        "date": "2015-03-15T18:51:28Z"
+      },
+      "committer": {
+        "name": "Tim O'Donnell",
+        "email": "timodonnell@gmail.com",
+        "date": "2015-03-15T18:51:28Z"
+      },
+      "message": "Fix scripts/guacamole to run correct jar\n\nInvoke target/guacamole-with-dependencies-*-.jar, not target/guacamole-*.jar.\n\nOtherwise, we were seeing errors when running scripts/guacamole.",
+      "tree": {
+        "sha": "3c02ccd619230ef1e9e4518261b2c0ea6e04e1e7",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/3c02ccd619230ef1e9e4518261b2c0ea6e04e1e7"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/1ba07a9d206a44f9ff314416052340cf419822ac",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/1ba07a9d206a44f9ff314416052340cf419822ac",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/1ba07a9d206a44f9ff314416052340cf419822ac",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/1ba07a9d206a44f9ff314416052340cf419822ac/comments",
+    "author": {
+      "login": "timodonnell",
+      "id": 467896,
+      "avatar_url": "https://avatars.githubusercontent.com/u/467896?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/timodonnell",
+      "html_url": "https://github.com/timodonnell",
+      "followers_url": "https://api.github.com/users/timodonnell/followers",
+      "following_url": "https://api.github.com/users/timodonnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timodonnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timodonnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timodonnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/timodonnell/orgs",
+      "repos_url": "https://api.github.com/users/timodonnell/repos",
+      "events_url": "https://api.github.com/users/timodonnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timodonnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timodonnell",
+      "id": 467896,
+      "avatar_url": "https://avatars.githubusercontent.com/u/467896?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/timodonnell",
+      "html_url": "https://github.com/timodonnell",
+      "followers_url": "https://api.github.com/users/timodonnell/followers",
+      "following_url": "https://api.github.com/users/timodonnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timodonnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timodonnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timodonnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/timodonnell/orgs",
+      "repos_url": "https://api.github.com/users/timodonnell/repos",
+      "events_url": "https://api.github.com/users/timodonnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timodonnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "27b49721dddfc602e94b491ff76fa8bf8bcb0f31",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/27b49721dddfc602e94b491ff76fa8bf8bcb0f31",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/27b49721dddfc602e94b491ff76fa8bf8bcb0f31"
+      }
+    ]
+  },
+  {
+    "sha": "27b49721dddfc602e94b491ff76fa8bf8bcb0f31",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-07T04:12:36Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-07T04:12:36Z"
+      },
+      "message": "Merge pull request #279 from hammerlab/overlaps-other-ref-region\n\nAdd overlaps for other reference region",
+      "tree": {
+        "sha": "b8793492e9dfa61870b33c0ca946ec3ac6c3c09d",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/b8793492e9dfa61870b33c0ca946ec3ac6c3c09d"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/27b49721dddfc602e94b491ff76fa8bf8bcb0f31",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/27b49721dddfc602e94b491ff76fa8bf8bcb0f31",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/27b49721dddfc602e94b491ff76fa8bf8bcb0f31",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/27b49721dddfc602e94b491ff76fa8bf8bcb0f31/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "594c0347fb12a526bf1405467f19cca167988e1f",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/594c0347fb12a526bf1405467f19cca167988e1f",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/594c0347fb12a526bf1405467f19cca167988e1f"
+      },
+      {
+        "sha": "e3adbf5b7ca519c1b3adfa2f72228f0503ccdb3c",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/e3adbf5b7ca519c1b3adfa2f72228f0503ccdb3c",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/e3adbf5b7ca519c1b3adfa2f72228f0503ccdb3c"
+      }
+    ]
+  },
+  {
+    "sha": "d52c96236410e13c870704c90cca21d2b3f43b89",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-06T16:22:23Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-03-06T16:22:23Z"
+      },
+      "message": "Merge pull request #281 from ryan-williams/cr\n\na few testing tweaks / comments",
+      "tree": {
+        "sha": "66e002b8e9fb3e2e1bdafa0f16d0ec99ee850297",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/66e002b8e9fb3e2e1bdafa0f16d0ec99ee850297"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/d52c96236410e13c870704c90cca21d2b3f43b89",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/d52c96236410e13c870704c90cca21d2b3f43b89",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/d52c96236410e13c870704c90cca21d2b3f43b89",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/d52c96236410e13c870704c90cca21d2b3f43b89/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e1dedc8eb6e3e59cc55a8dade1be044b9a08239d",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/e1dedc8eb6e3e59cc55a8dade1be044b9a08239d",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/e1dedc8eb6e3e59cc55a8dade1be044b9a08239d"
+      },
+      {
+        "sha": "496704b9b0e570b0deb53791338d7d3fa86c005e",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/496704b9b0e570b0deb53791338d7d3fa86c005e",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/496704b9b0e570b0deb53791338d7d3fa86c005e"
+      }
+    ]
+  },
+  {
+    "sha": "496704b9b0e570b0deb53791338d7d3fa86c005e",
+    "commit": {
+      "author": {
+        "name": "Ryan Williams",
+        "email": "ryan.blake.williams@gmail.com",
+        "date": "2015-02-27T19:51:31Z"
+      },
+      "committer": {
+        "name": "Ryan Williams",
+        "email": "ryan.blake.williams@gmail.com",
+        "date": "2015-02-27T19:51:31Z"
+      },
+      "message": "a few testing tweaks / comments",
+      "tree": {
+        "sha": "66e002b8e9fb3e2e1bdafa0f16d0ec99ee850297",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/66e002b8e9fb3e2e1bdafa0f16d0ec99ee850297"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/496704b9b0e570b0deb53791338d7d3fa86c005e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/496704b9b0e570b0deb53791338d7d3fa86c005e",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/496704b9b0e570b0deb53791338d7d3fa86c005e",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/496704b9b0e570b0deb53791338d7d3fa86c005e/comments",
+    "author": {
+      "login": "ryan-williams",
+      "id": 465045,
+      "avatar_url": "https://avatars.githubusercontent.com/u/465045?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ryan-williams",
+      "html_url": "https://github.com/ryan-williams",
+      "followers_url": "https://api.github.com/users/ryan-williams/followers",
+      "following_url": "https://api.github.com/users/ryan-williams/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ryan-williams/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ryan-williams/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ryan-williams/subscriptions",
+      "organizations_url": "https://api.github.com/users/ryan-williams/orgs",
+      "repos_url": "https://api.github.com/users/ryan-williams/repos",
+      "events_url": "https://api.github.com/users/ryan-williams/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ryan-williams/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ryan-williams",
+      "id": 465045,
+      "avatar_url": "https://avatars.githubusercontent.com/u/465045?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ryan-williams",
+      "html_url": "https://github.com/ryan-williams",
+      "followers_url": "https://api.github.com/users/ryan-williams/followers",
+      "following_url": "https://api.github.com/users/ryan-williams/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ryan-williams/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ryan-williams/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ryan-williams/subscriptions",
+      "organizations_url": "https://api.github.com/users/ryan-williams/orgs",
+      "repos_url": "https://api.github.com/users/ryan-williams/repos",
+      "events_url": "https://api.github.com/users/ryan-williams/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ryan-williams/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e1dedc8eb6e3e59cc55a8dade1be044b9a08239d",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/e1dedc8eb6e3e59cc55a8dade1be044b9a08239d",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/e1dedc8eb6e3e59cc55a8dade1be044b9a08239d"
+      }
+    ]
+  },
+  {
+    "sha": "594c0347fb12a526bf1405467f19cca167988e1f",
+    "commit": {
+      "author": {
+        "name": "Ryan Williams",
+        "email": "ryan.blake.williams@gmail.com",
+        "date": "2015-02-27T17:42:42Z"
+      },
+      "committer": {
+        "name": "Ryan Williams",
+        "email": "ryan.blake.williams@gmail.com",
+        "date": "2015-02-27T17:42:42Z"
+      },
+      "message": "Merge pull request #280 from hammerlab/travis-sudo\n\nAdding sudo false to travis config",
+      "tree": {
+        "sha": "390065d8ac4e5437e76b8259c9743d5e28f7fb96",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/390065d8ac4e5437e76b8259c9743d5e28f7fb96"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/594c0347fb12a526bf1405467f19cca167988e1f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/594c0347fb12a526bf1405467f19cca167988e1f",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/594c0347fb12a526bf1405467f19cca167988e1f",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/594c0347fb12a526bf1405467f19cca167988e1f/comments",
+    "author": {
+      "login": "ryan-williams",
+      "id": 465045,
+      "avatar_url": "https://avatars.githubusercontent.com/u/465045?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ryan-williams",
+      "html_url": "https://github.com/ryan-williams",
+      "followers_url": "https://api.github.com/users/ryan-williams/followers",
+      "following_url": "https://api.github.com/users/ryan-williams/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ryan-williams/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ryan-williams/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ryan-williams/subscriptions",
+      "organizations_url": "https://api.github.com/users/ryan-williams/orgs",
+      "repos_url": "https://api.github.com/users/ryan-williams/repos",
+      "events_url": "https://api.github.com/users/ryan-williams/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ryan-williams/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ryan-williams",
+      "id": 465045,
+      "avatar_url": "https://avatars.githubusercontent.com/u/465045?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ryan-williams",
+      "html_url": "https://github.com/ryan-williams",
+      "followers_url": "https://api.github.com/users/ryan-williams/followers",
+      "following_url": "https://api.github.com/users/ryan-williams/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ryan-williams/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ryan-williams/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ryan-williams/subscriptions",
+      "organizations_url": "https://api.github.com/users/ryan-williams/orgs",
+      "repos_url": "https://api.github.com/users/ryan-williams/repos",
+      "events_url": "https://api.github.com/users/ryan-williams/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ryan-williams/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4c0381c6feba189ab605decaaea3c56a158ff565",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/4c0381c6feba189ab605decaaea3c56a158ff565",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/4c0381c6feba189ab605decaaea3c56a158ff565"
+      },
+      {
+        "sha": "20f832175579ae94301f4bcc5df75b8ba9c69376",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/20f832175579ae94301f4bcc5df75b8ba9c69376",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/20f832175579ae94301f4bcc5df75b8ba9c69376"
+      }
+    ]
+  },
+  {
+    "sha": "20f832175579ae94301f4bcc5df75b8ba9c69376",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-02-27T15:27:05Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-02-27T15:27:05Z"
+      },
+      "message": "adding sudo false to travis config",
+      "tree": {
+        "sha": "390065d8ac4e5437e76b8259c9743d5e28f7fb96",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/390065d8ac4e5437e76b8259c9743d5e28f7fb96"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/20f832175579ae94301f4bcc5df75b8ba9c69376",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/20f832175579ae94301f4bcc5df75b8ba9c69376",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/20f832175579ae94301f4bcc5df75b8ba9c69376",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/20f832175579ae94301f4bcc5df75b8ba9c69376/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4c0381c6feba189ab605decaaea3c56a158ff565",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/4c0381c6feba189ab605decaaea3c56a158ff565",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/4c0381c6feba189ab605decaaea3c56a158ff565"
+      }
+    ]
+  },
+  {
+    "sha": "e3adbf5b7ca519c1b3adfa2f72228f0503ccdb3c",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-02-25T05:05:36Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-02-25T05:05:36Z"
+      },
+      "message": "add test case for read covering another; fix overlaps to account for this case",
+      "tree": {
+        "sha": "186fd8ca0dc903826657a49410289670b948553b",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/186fd8ca0dc903826657a49410289670b948553b"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/e3adbf5b7ca519c1b3adfa2f72228f0503ccdb3c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/e3adbf5b7ca519c1b3adfa2f72228f0503ccdb3c",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/e3adbf5b7ca519c1b3adfa2f72228f0503ccdb3c",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/e3adbf5b7ca519c1b3adfa2f72228f0503ccdb3c/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dd3db900b036467c767a09a40ee752d38874c454",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/dd3db900b036467c767a09a40ee752d38874c454",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/dd3db900b036467c767a09a40ee752d38874c454"
+      }
+    ]
+  },
+  {
+    "sha": "dd3db900b036467c767a09a40ee752d38874c454",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-02-17T15:41:42Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-02-17T16:03:35Z"
+      },
+      "message": "add overlaps for other reference region",
+      "tree": {
+        "sha": "75d388f1fa6053a00c3ded0ed3b205542e2fbd9e",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/75d388f1fa6053a00c3ded0ed3b205542e2fbd9e"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/dd3db900b036467c767a09a40ee752d38874c454",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/dd3db900b036467c767a09a40ee752d38874c454",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/dd3db900b036467c767a09a40ee752d38874c454",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/dd3db900b036467c767a09a40ee752d38874c454/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4c0381c6feba189ab605decaaea3c56a158ff565",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/4c0381c6feba189ab605decaaea3c56a158ff565",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/4c0381c6feba189ab605decaaea3c56a158ff565"
+      }
+    ]
+  },
+  {
+    "sha": "e1dedc8eb6e3e59cc55a8dade1be044b9a08239d",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-02-15T17:59:53Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-02-17T02:40:20Z"
+      },
+      "message": "add rebuilding of reference from multiple reads and tests",
+      "tree": {
+        "sha": "07b81e69bff3921299d7c24d2b289c242da61883",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/07b81e69bff3921299d7c24d2b289c242da61883"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/e1dedc8eb6e3e59cc55a8dade1be044b9a08239d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/e1dedc8eb6e3e59cc55a8dade1be044b9a08239d",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/e1dedc8eb6e3e59cc55a8dade1be044b9a08239d",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/e1dedc8eb6e3e59cc55a8dade1be044b9a08239d/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4c0381c6feba189ab605decaaea3c56a158ff565",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/4c0381c6feba189ab605decaaea3c56a158ff565",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/4c0381c6feba189ab605decaaea3c56a158ff565"
+      }
+    ]
+  },
+  {
+    "sha": "4c0381c6feba189ab605decaaea3c56a158ff565",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-01-28T04:09:48Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-01-28T04:09:48Z"
+      },
+      "message": "Merge pull request #277 from hammerlab/standard-bases\n\nFixing check of standard bases",
+      "tree": {
+        "sha": "4008d8ae77851842fe42621f1e2b20f01c0a1765",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/4008d8ae77851842fe42621f1e2b20f01c0a1765"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/4c0381c6feba189ab605decaaea3c56a158ff565",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/4c0381c6feba189ab605decaaea3c56a158ff565",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/4c0381c6feba189ab605decaaea3c56a158ff565",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/4c0381c6feba189ab605decaaea3c56a158ff565/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6e5779aacceea7bd7e5380acdaa3facfb9993b88",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/6e5779aacceea7bd7e5380acdaa3facfb9993b88",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/6e5779aacceea7bd7e5380acdaa3facfb9993b88"
+      },
+      {
+        "sha": "415d73559280762ad911018f140838cbd2a7f240",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/415d73559280762ad911018f140838cbd2a7f240",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/415d73559280762ad911018f140838cbd2a7f240"
+      }
+    ]
+  },
+  {
+    "sha": "415d73559280762ad911018f140838cbd2a7f240",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-01-26T15:53:49Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-01-26T15:53:49Z"
+      },
+      "message": "fixing check of standard bases",
+      "tree": {
+        "sha": "1fc31898ad9883d5fb1ea107a41f4c1d48325a26",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/1fc31898ad9883d5fb1ea107a41f4c1d48325a26"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/415d73559280762ad911018f140838cbd2a7f240",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/415d73559280762ad911018f140838cbd2a7f240",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/415d73559280762ad911018f140838cbd2a7f240",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/415d73559280762ad911018f140838cbd2a7f240/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5"
+      }
+    ]
+  },
+  {
+    "sha": "6e5779aacceea7bd7e5380acdaa3facfb9993b88",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-01-24T04:50:08Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-01-24T04:50:08Z"
+      },
+      "message": "Merge pull request #276 from hammerlab/germline-fixes\n\nMinor germline fixes",
+      "tree": {
+        "sha": "cc6ad3fca9dedfb9a769ba31b3ea76d57a69f0cb",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/cc6ad3fca9dedfb9a769ba31b3ea76d57a69f0cb"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/6e5779aacceea7bd7e5380acdaa3facfb9993b88",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/6e5779aacceea7bd7e5380acdaa3facfb9993b88",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/6e5779aacceea7bd7e5380acdaa3facfb9993b88",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/6e5779aacceea7bd7e5380acdaa3facfb9993b88/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5"
+      },
+      {
+        "sha": "2f5946823e0ec06fe6edd3f6d022a580ebc117fa",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/2f5946823e0ec06fe6edd3f6d022a580ebc117fa",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/2f5946823e0ec06fe6edd3f6d022a580ebc117fa"
+      }
+    ]
+  },
+  {
+    "sha": "2f5946823e0ec06fe6edd3f6d022a580ebc117fa",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-01-22T17:17:46Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2015-01-24T04:26:03Z"
+      },
+      "message": "minor germline fixes; normalize probabilities and revert from logspace before phred scaling",
+      "tree": {
+        "sha": "cc6ad3fca9dedfb9a769ba31b3ea76d57a69f0cb",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/cc6ad3fca9dedfb9a769ba31b3ea76d57a69f0cb"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/2f5946823e0ec06fe6edd3f6d022a580ebc117fa",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/2f5946823e0ec06fe6edd3f6d022a580ebc117fa",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/2f5946823e0ec06fe6edd3f6d022a580ebc117fa",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/2f5946823e0ec06fe6edd3f6d022a580ebc117fa/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5"
+      }
+    ]
+  },
+  {
+    "sha": "0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-21T22:58:58Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-21T22:58:58Z"
+      },
+      "message": "Merge pull request #274 from hammerlab/add-javadoc-release\n\nAdd javadoc to release profile",
+      "tree": {
+        "sha": "ce5cb729550d1f73e43512248e13756c16485309",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/ce5cb729550d1f73e43512248e13756c16485309"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/0f38a8de9db764be4e884a7f4ff4b5e7fd8527e5/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fc09289826af68ed43172fab1d2619ba60d39ea8",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/fc09289826af68ed43172fab1d2619ba60d39ea8",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/fc09289826af68ed43172fab1d2619ba60d39ea8"
+      },
+      {
+        "sha": "60c3aeaecc0399ed95bd9cfeb7b443b3624d7619",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/60c3aeaecc0399ed95bd9cfeb7b443b3624d7619",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/60c3aeaecc0399ed95bd9cfeb7b443b3624d7619"
+      }
+    ]
+  },
+  {
+    "sha": "60c3aeaecc0399ed95bd9cfeb7b443b3624d7619",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-20T00:08:42Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-20T00:08:42Z"
+      },
+      "message": "add javadoc to release profile",
+      "tree": {
+        "sha": "ce5cb729550d1f73e43512248e13756c16485309",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/ce5cb729550d1f73e43512248e13756c16485309"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/60c3aeaecc0399ed95bd9cfeb7b443b3624d7619",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/60c3aeaecc0399ed95bd9cfeb7b443b3624d7619",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/60c3aeaecc0399ed95bd9cfeb7b443b3624d7619",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/60c3aeaecc0399ed95bd9cfeb7b443b3624d7619/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fc09289826af68ed43172fab1d2619ba60d39ea8",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/fc09289826af68ed43172fab1d2619ba60d39ea8",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/fc09289826af68ed43172fab1d2619ba60d39ea8"
+      }
+    ]
+  },
+  {
+    "sha": "fc09289826af68ed43172fab1d2619ba60d39ea8",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T23:34:30Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T23:34:30Z"
+      },
+      "message": "[maven-release-plugin] prepare for next development iteration",
+      "tree": {
+        "sha": "e783414e897cd158adb283c242a2d5696ce24b11",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/e783414e897cd158adb283c242a2d5696ce24b11"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/fc09289826af68ed43172fab1d2619ba60d39ea8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/fc09289826af68ed43172fab1d2619ba60d39ea8",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/fc09289826af68ed43172fab1d2619ba60d39ea8",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/fc09289826af68ed43172fab1d2619ba60d39ea8/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3413b3f706cb8039aa37e40897fddb46f7c215a3",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/3413b3f706cb8039aa37e40897fddb46f7c215a3",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/3413b3f706cb8039aa37e40897fddb46f7c215a3"
+      }
+    ]
+  },
+  {
+    "sha": "3413b3f706cb8039aa37e40897fddb46f7c215a3",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T23:34:28Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T23:34:28Z"
+      },
+      "message": "[maven-release-plugin] prepare release guacamole-0.0.0",
+      "tree": {
+        "sha": "f31923d48ba8933199b80ba2e17c0a1761cba65b",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/f31923d48ba8933199b80ba2e17c0a1761cba65b"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/3413b3f706cb8039aa37e40897fddb46f7c215a3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/3413b3f706cb8039aa37e40897fddb46f7c215a3",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/3413b3f706cb8039aa37e40897fddb46f7c215a3",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/3413b3f706cb8039aa37e40897fddb46f7c215a3/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3127d526918c36044d258b6fb973a56687079de6",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/3127d526918c36044d258b6fb973a56687079de6",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/3127d526918c36044d258b6fb973a56687079de6"
+      }
+    ]
+  },
+  {
+    "sha": "3127d526918c36044d258b6fb973a56687079de6",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T23:29:57Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T23:29:57Z"
+      },
+      "message": "Merge pull request #273 from hammerlab/spark1.2-exernal-sorting\n\nMove sorting of reads in partition to ExternalSorter",
+      "tree": {
+        "sha": "bec829f5bb48360ba06c82b4d06991362d5880db",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/bec829f5bb48360ba06c82b4d06991362d5880db"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/3127d526918c36044d258b6fb973a56687079de6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/3127d526918c36044d258b6fb973a56687079de6",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/3127d526918c36044d258b6fb973a56687079de6",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/3127d526918c36044d258b6fb973a56687079de6/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e11d63d3dc7d6201a03d503a3dfd1181a1ad4286",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/e11d63d3dc7d6201a03d503a3dfd1181a1ad4286",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/e11d63d3dc7d6201a03d503a3dfd1181a1ad4286"
+      },
+      {
+        "sha": "ff92e4e6240c29dd117d0d2ed1bafed613e84c9a",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/ff92e4e6240c29dd117d0d2ed1bafed613e84c9a",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/ff92e4e6240c29dd117d0d2ed1bafed613e84c9a"
+      }
+    ]
+  },
+  {
+    "sha": "ff92e4e6240c29dd117d0d2ed1bafed613e84c9a",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T22:33:57Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T22:33:57Z"
+      },
+      "message": "remove cogroup comment; update taskposition comparison",
+      "tree": {
+        "sha": "da9633aa598c8f542e8e140ccaf301bb1a7f479b",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/da9633aa598c8f542e8e140ccaf301bb1a7f479b"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/ff92e4e6240c29dd117d0d2ed1bafed613e84c9a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/ff92e4e6240c29dd117d0d2ed1bafed613e84c9a",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/ff92e4e6240c29dd117d0d2ed1bafed613e84c9a",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/ff92e4e6240c29dd117d0d2ed1bafed613e84c9a/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4fca070a2dbdd5c7806e7dfd7fe3b26d7b652c99",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/4fca070a2dbdd5c7806e7dfd7fe3b26d7b652c99",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/4fca070a2dbdd5c7806e7dfd7fe3b26d7b652c99"
+      }
+    ]
+  },
+  {
+    "sha": "e11d63d3dc7d6201a03d503a3dfd1181a1ad4286",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T21:51:50Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T21:51:50Z"
+      },
+      "message": "Merge pull request #272 from hammerlab/upgrade-spark\n\nUpgrade Spark to version 1.2",
+      "tree": {
+        "sha": "1a345ec77197e069995524fd8b0733ec2f05ed27",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/1a345ec77197e069995524fd8b0733ec2f05ed27"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/e11d63d3dc7d6201a03d503a3dfd1181a1ad4286",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/e11d63d3dc7d6201a03d503a3dfd1181a1ad4286",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/e11d63d3dc7d6201a03d503a3dfd1181a1ad4286",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/e11d63d3dc7d6201a03d503a3dfd1181a1ad4286/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e87cf97070c433fd7099d78e3bdf98f7b6dbdc5f",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/e87cf97070c433fd7099d78e3bdf98f7b6dbdc5f",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/e87cf97070c433fd7099d78e3bdf98f7b6dbdc5f"
+      },
+      {
+        "sha": "a155f6d52fd91635d69128ff2fc8ac2c839c12a9",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/a155f6d52fd91635d69128ff2fc8ac2c839c12a9",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/a155f6d52fd91635d69128ff2fc8ac2c839c12a9"
+      }
+    ]
+  },
+  {
+    "sha": "e87cf97070c433fd7099d78e3bdf98f7b6dbdc5f",
+    "commit": {
+      "author": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T21:51:36Z"
+      },
+      "committer": {
+        "name": "Arun Ahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T21:51:36Z"
+      },
+      "message": "Merge pull request #271 from hammerlab/reset-version\n\nresetting version to 0.0.0",
+      "tree": {
+        "sha": "db99de86a0509b655b5e2ed95042a36b7002cc85",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/db99de86a0509b655b5e2ed95042a36b7002cc85"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/e87cf97070c433fd7099d78e3bdf98f7b6dbdc5f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/e87cf97070c433fd7099d78e3bdf98f7b6dbdc5f",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/e87cf97070c433fd7099d78e3bdf98f7b6dbdc5f",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/e87cf97070c433fd7099d78e3bdf98f7b6dbdc5f/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5d01001f239889e99db42f6b8235160ebb6407fa",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/5d01001f239889e99db42f6b8235160ebb6407fa",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/5d01001f239889e99db42f6b8235160ebb6407fa"
+      },
+      {
+        "sha": "6e23fcdbd74d5dc592f057d485091636fe9ba0f2",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/6e23fcdbd74d5dc592f057d485091636fe9ba0f2",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/6e23fcdbd74d5dc592f057d485091636fe9ba0f2"
+      }
+    ]
+  },
+  {
+    "sha": "a155f6d52fd91635d69128ff2fc8ac2c839c12a9",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T14:29:02Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T20:21:12Z"
+      },
+      "message": "upgrade Spark to version 1.2",
+      "tree": {
+        "sha": "5509220692d869ff4f4f2256dcbc9cb4b86ba09b",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/5509220692d869ff4f4f2256dcbc9cb4b86ba09b"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/a155f6d52fd91635d69128ff2fc8ac2c839c12a9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/a155f6d52fd91635d69128ff2fc8ac2c839c12a9",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/a155f6d52fd91635d69128ff2fc8ac2c839c12a9",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/a155f6d52fd91635d69128ff2fc8ac2c839c12a9/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "77dca624c093af4973f8f7ca4782935338c81a53",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/77dca624c093af4973f8f7ca4782935338c81a53",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/77dca624c093af4973f8f7ca4782935338c81a53"
+      }
+    ]
+  },
+  {
+    "sha": "4fca070a2dbdd5c7806e7dfd7fe3b26d7b652c99",
+    "commit": {
+      "author": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T16:31:43Z"
+      },
+      "committer": {
+        "name": "arahuja",
+        "email": "aahuja11@gmail.com",
+        "date": "2014-12-19T16:44:34Z"
+      },
+      "message": "add loci per task accumulator",
+      "tree": {
+        "sha": "6466616928470544c324357f3e62bcba6e9c38dc",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/git/trees/6466616928470544c324357f3e62bcba6e9c38dc"
+      },
+      "url": "https://api.github.com/repos/hammerlab/guacamole/git/commits/4fca070a2dbdd5c7806e7dfd7fe3b26d7b652c99",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/hammerlab/guacamole/commits/4fca070a2dbdd5c7806e7dfd7fe3b26d7b652c99",
+    "html_url": "https://github.com/hammerlab/guacamole/commit/4fca070a2dbdd5c7806e7dfd7fe3b26d7b652c99",
+    "comments_url": "https://api.github.com/repos/hammerlab/guacamole/commits/4fca070a2dbdd5c7806e7dfd7fe3b26d7b652c99/comments",
+    "author": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "arahuja",
+      "id": 455755,
+      "avatar_url": "https://avatars.githubusercontent.com/u/455755?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arahuja",
+      "html_url": "https://github.com/arahuja",
+      "followers_url": "https://api.github.com/users/arahuja/followers",
+      "following_url": "https://api.github.com/users/arahuja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arahuja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arahuja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arahuja/subscriptions",
+      "organizations_url": "https://api.github.com/users/arahuja/orgs",
+      "repos_url": "https://api.github.com/users/arahuja/repos",
+      "events_url": "https://api.github.com/users/arahuja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arahuja/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "740daefdea96d9b283b81465fb01c2ea99e69c4d",
+        "url": "https://api.github.com/repos/hammerlab/guacamole/commits/740daefdea96d9b283b81465fb01c2ea99e69c4d",
+        "html_url": "https://github.com/hammerlab/guacamole/commit/740daefdea96d9b283b81465fb01c2ea99e69c4d"
+      }
+    ]
+  }
+]

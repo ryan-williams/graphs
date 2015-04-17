@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+    head
+        meta(http-equiv='Content-type', content='text/html; charset=utf-8')
+        title= Trajectories
+        link(rel="stylesheet", href="/static/css/base.css")
+        link(rel="stylesheet", href="/static/css/gitgraph.css")
+    body
+        h1 Trajectories
+        #container
+        #sigma-container
+
+        script(src="/static/js/thirdparty/jquery.min.js")
+        script(src="/static/js/thirdparty/sigma.min.js")
+        script(src="/static/js/thirdparty/gitgraph.js")
+        script(src="/static/js/react/react-with-addons.js")
+        script(src="/static/js/react/react-draggable.js")
+        script(src="/static/js/react/JSXTransformer.js")
+
+        script(type="text/javascript") window.obj = !{JSON.stringify(obj)}
+        script(type="text/jsx", src="/static/js/git-graph.js")
+

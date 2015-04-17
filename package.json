@@ -1,0 +1,12 @@
+{
+  "name": "git-graph",
+  "description": "Draw graphs of git repositories",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": ">=3.0.0",
+    "jade": "*",
+    "less-middleware": "*",
+    "react-draggable": ">=0.4.0",
+    "sigma": "*"
+  }
+}
