@@ -89,19 +89,10 @@ var images = !!getParameterByName('images');
 var ratio = parseFloat(getParameterByName('ratio', '1'));
 console.log("ratio: %f, margin: %O, images: %s", ratio, sideMargin, images);
 
-var users = {465045:1, 455755:1};
+var activeNodesMap = {};
 
 var commits = {};
 obj.forEach(function(commit, idx) {
-  var author = commit.author.id;
-  //var found = (author in users);
-  var found = images;
-  //var found = false;
-  //var url = found ? '/static/img/' + author + '.jpg' : commit.author.avatar_url;
-  var url = commit.author.avatar_url;
-  if (!found) {
-    console.log("missing author: %d: %s %O", author, commit.author.avatar_url, commit.author);
-  }
   commits[commit.sha] = commit;
   g.nodes.push({
     id: commit.sha,
@@ -110,7 +101,7 @@ obj.forEach(function(commit, idx) {
     y: idx * nodeVerticalSpace,
     size: 1,
     type: images ? 'image' : 'def',
-    url: url,
+    url: commit.author.avatar_url,
     color: '#000'
   });
 });
@@ -149,53 +140,126 @@ obj.forEach(function(commit) {
 
 var loaded = 0;
 
-// Then, wait for all images to be loaded before instantiating sigma:
-urls.forEach(function(url) {
-  sigma.canvas.nodes.image.cache(
-        url,
-        function() {
-          console.log("loaded: %d", loaded);
-          if (++loaded === urls.length) {
-            // Instantiate sigma:
-            s = new sigma({
-              graph: g,
-              settings: {
-                nodesPowRatio: ratio,
-                edgesPowRatio: ratio,
-                maxNodeSize: maxNodeSize,
-                maxEdgeSize: maxEdgeSize,
-                sideMargin: sideMargin
-              },
-              //scale: 'outside',
-              //autoRescale: false,
-              renderer: {
-                // IMPORTANT:
-                // This works only with the canvas renderer, so the
-                // renderer type set as "canvas" is necessary here.
-                container: document.getElementById('sigma-container'),
-                type: 'canvas'
-              }
-            });
+var dragListener, activeState, select, kbd;
 
-            // Initialize the dragNodes plugin:
-            var dragListener = sigma.plugins.dragNodes(s, s.renderers[0]);
+//function downNode(event) {
+//  if (!event.data.captor.shiftKey) {
+//
+//  }
+//
+//}
 
-            dragListener.bind('startdrag', function (event) {
-              console.log(event);
-            });
-            dragListener.bind('drag', function (event) {
-              //console.log(event);
-            });
-            dragListener.bind('drop', function (event) {
-              console.log(event);
-            });
-            dragListener.bind('dragend', function (event) {
-              console.log(event);
-            });
+function onClick(event) {
+  console.log("onClick! %O", event);
+  //activeState.dropNodes();
+}
+
+function ids(arr) { return arr.map(function(n) { return n.id; }).join(','); }
+
+function onClickStage(event) {
+  console.log("onClickStage: %O", event);
+  activeState.dropNodes();
+}
+
+function onClickNode(event) {
+  console.log("onClickNode: %s %O (%s,%s,%s,%s)", event.data.node.id, event, event.data.captor.altKey, event.data.captor.ctrlKey, event.data.captor.metaKey, event.data.captor.shiftKey);
+  if (!event.data.captor.shiftKey) {
+    activeState.dropNodes();
+  }
+  activeState.addNodes(event.data.node.id);
+  console.log("active nodes: %s", ids(activeState.nodes()));
+}
+
+function onActiveNodes(event) {
+  console.log("onActiveNodes: %O %s", event, ids(activeState.nodes()));
+  activeNodesMap = {};
+  activeState.nodes().forEach(function(node) {
+    activeNodesMap[node.id] = 1;
+  });
+  //s.graph.nodes().forEach(function(n) {
+  //  if (n.id in activeNodesMap) {
+  //    n.active = true;
+  //  } else {
+  //    n.active = false;
+  //  }
+  //});
+  s.refresh();
+}
+
+function initSigma() {
+  // Instantiate sigma:
+  s = new sigma({
+    graph: g,
+    settings: {
+      nodesPowRatio: ratio,
+      edgesPowRatio: ratio,
+      maxNodeSize: maxNodeSize,
+      maxEdgeSize: maxEdgeSize,
+      sideMargin: sideMargin,
+      nodeActiveColor: 'blue',
+      activeFontStyle: 'bold'
+    },
+    //scale: 'outside',
+    //autoRescale: false,
+    renderer: {
+      // IMPORTANT:
+      // This works only with the canvas renderer, so the
+      // renderer type set as "canvas" is necessary here.
+      container: document.getElementById('sigma-container'),
+      type: 'canvas'
+    }
+  });
+
+  // Initialize the dragNodes plugin:
+  dragListener = sigma.plugins.dragNodes(s, s.renderers[0]);
+
+  dragListener.bind('startdrag', function (event) {
+    //console.log(event);
+  });
+  dragListener.bind('drag', function (event) {
+    //console.log(event);
+  });
+  dragListener.bind('drop', function (event) {
+    //console.log(event);
+  });
+  dragListener.bind('dragend', function (event) {
+    //console.log(event);
+  });
+
+  activeState = sigma.plugins.activeState(s);
+
+  var renderer = s.renderers[0];
+  renderer.bind('click', onClick);
+  renderer.bind('clickNode', onClickNode);
+  renderer.bind('clickStage', onClickStage);
+
+  activeState.bind('activeNodes', onActiveNodes);
+
+  //select = sigma.plugins.select(s, activeState);
+  //select.bindDragNodes(dragListener);
+
+  //kbd = sigma.plugins.keyboard(s, renderer);
+
+  //select.bindKeyboard(kbd);
+}
+
+function loadUrlsAndInitSigma() {
+  // Then, wait for all images to be loaded before instantiating sigma:
+  urls.forEach(function (url) {
+    sigma.canvas.nodes.image.cache(
+          url,
+          function () {
+            console.log("loaded: %d", loaded);
+            if (++loaded === urls.length) {
+              initSigma();
+            }
           }
-        }
-  );
-});
+    );
+  });
+}
+
+loadUrlsAndInitSigma();
+//initSigma();
 
 function gm() { return s.camera.getMatrix(); }
 function gt(x,y) { s.camera.goTo({x:x,y:y}); }

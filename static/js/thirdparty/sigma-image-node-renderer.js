@@ -22,7 +22,9 @@ sigma.canvas.nodes.image = (function() {
     var args = arguments,
           prefix = settings('prefix') || '',
           size = node[prefix + 'size'],
-          color = node.color || settings('defaultNodeColor'),
+          color = node.active ?
+                (node.activeColor || settings('nodeActiveColor')) :
+                (node.color || settings('defaultNodeColor')),
           url = node.url;
 
     if (_cache[url]) {
@@ -64,7 +66,7 @@ sigma.canvas.nodes.image = (function() {
             true
       );
       context.lineWidth = size / 5;
-      context.strokeStyle = node.color || settings('defaultNodeColor');
+      context.strokeStyle = color;
       context.stroke();
     } else {
       sigma.canvas.nodes.image.cache(url);
