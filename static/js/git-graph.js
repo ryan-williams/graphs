@@ -142,18 +142,6 @@ var loaded = 0;
 
 var dragListener, activeState, select, kbd;
 
-//function downNode(event) {
-//  if (!event.data.captor.shiftKey) {
-//
-//  }
-//
-//}
-
-function onClick(event) {
-  console.log("onClick! %O", event);
-  //activeState.dropNodes();
-}
-
 function ids(arr) { return arr.map(function(n) { return n.id; }).join(','); }
 
 function onClickStage(event) {
@@ -161,14 +149,21 @@ function onClickStage(event) {
   activeState.dropNodes();
 }
 
-function onClickNode(event) {
-  console.log("onClickNode: %s %O (%s,%s,%s,%s)", event.data.node.id, event, event.data.captor.altKey, event.data.captor.ctrlKey, event.data.captor.metaKey, event.data.captor.shiftKey);
-  if (!event.data.captor.shiftKey) {
-    activeState.dropNodes();
-  }
-  activeState.addNodes(event.data.node.id);
-  console.log("active nodes: %s", ids(activeState.nodes()));
-}
+//function onClickNode(event) {
+//  console.log("onClickNode: %s %O (%s,%s,%s,%s)",
+//        event.data.node.id,
+//        event,
+//        event.data.captor.altKey,
+//        event.data.captor.ctrlKey,
+//        event.data.captor.metaKey,
+//        event.data.captor.shiftKey
+//  );
+//  if (!event.data.captor.shiftKey) {
+//    activeState.dropNodes();
+//  }
+//  activeState.addNodes(event.data.node.id);
+//  console.log("active nodes: %s", ids(activeState.nodes()));
+//}
 
 function onActiveNodes(event) {
   console.log("onActiveNodes: %O %s", event, ids(activeState.nodes()));
@@ -176,13 +171,6 @@ function onActiveNodes(event) {
   activeState.nodes().forEach(function(node) {
     activeNodesMap[node.id] = 1;
   });
-  //s.graph.nodes().forEach(function(n) {
-  //  if (n.id in activeNodesMap) {
-  //    n.active = true;
-  //  } else {
-  //    n.active = false;
-  //  }
-  //});
   s.refresh();
 }
 
@@ -197,10 +185,9 @@ function initSigma() {
       maxEdgeSize: maxEdgeSize,
       sideMargin: sideMargin,
       nodeActiveColor: 'blue',
-      activeFontStyle: 'bold'
+      activeFontStyle: 'bold',
+      //autoRescale: false,
     },
-    //scale: 'outside',
-    //autoRescale: false,
     renderer: {
       // IMPORTANT:
       // This works only with the canvas renderer, so the
@@ -229,18 +216,17 @@ function initSigma() {
   activeState = sigma.plugins.activeState(s);
 
   var renderer = s.renderers[0];
-  renderer.bind('click', onClick);
-  renderer.bind('clickNode', onClickNode);
+  //renderer.bind('clickNode', onClickNode);
   renderer.bind('clickStage', onClickStage);
 
   activeState.bind('activeNodes', onActiveNodes);
 
-  //select = sigma.plugins.select(s, activeState);
-  //select.bindDragNodes(dragListener);
+  select = sigma.plugins.select(s, activeState);
+  select.bindDragNodes(dragListener);
 
-  //kbd = sigma.plugins.keyboard(s, renderer);
+  kbd = sigma.plugins.keyboard(s, renderer);
 
-  //select.bindKeyboard(kbd);
+  select.bindKeyboard(kbd);
 }
 
 function loadUrlsAndInitSigma() {
