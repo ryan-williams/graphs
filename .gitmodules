@@ -1,3 +1,6 @@
 [submodule "static/js/thirdparty/sigma"]
 	path = static/js/thirdparty/sigma
 	url = git@github.com:jacomyal/sigma.js.git
+[submodule "static/js/thirdparty/linkurious"]
+	path = static/js/thirdparty/linkurious
+	url = git@github.com:Linkurious/linkurious.js.git
