@@ -82,6 +82,7 @@ var g = {
 };
 
 var maxNodeSize = parseInt(getParameterByName('size', '20'));
+var maxEdgeSize = parseInt(getParameterByName('esize', '2'));
 var sideMargin = getParameterByName('margin', '10').split(',').map(function(n) { return parseInt(n); });
 var nodeVerticalSpace = parseInt(getParameterByName('y', '30'));
 var images = !!getParameterByName('images');
@@ -162,6 +163,7 @@ urls.forEach(function(url) {
                 nodesPowRatio: ratio,
                 edgesPowRatio: ratio,
                 maxNodeSize: maxNodeSize,
+                maxEdgeSize: maxEdgeSize,
                 sideMargin: sideMargin
               },
               //scale: 'outside',
