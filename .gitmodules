@@ -1,0 +1,3 @@
+[submodule "static/js/thirdparty/sigma"]
+	path = static/js/thirdparty/sigma
+	url = git@github.com:jacomyal/sigma.js.git
